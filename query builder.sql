@@ -1,4 +1,4 @@
-/*  */
+/* */
 SELECT id, codigo, descricao, ncm, MAX(cst) as cst_, cfop, un, SUM(quantidade) as soma_, 
 MAX(valor) as valor_, MAX(ean) as ean_, emit
 FROM estoque
