@@ -6,3 +6,5 @@ GROUP BY codigo, descricao
 ORDER BY descricao ASC;
 
 SELECT * FROM estoque WHERE codigo='1253';
+
+SELECT * FROM `estoque` WHERE id=1000;
